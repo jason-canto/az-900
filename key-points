@@ -1,0 +1,57 @@
+- It is your responsibility to de-provision the resources when they aren't in use so that you can minimize costs.
+- Update domains indicate groups of VMs and underlying physical hardware that can be rebooted at the same time. 
+- A fault domain is essentially a rack of servers.
+- There's no cost for an availability set. You only pay for the VMs within the availability set.
+- Azure Virtual Machine Scale Sets let you create and manage a group of identical, load balanced VMs. 
+- Scale sets allow you to centrally manage, configure, and update a large number of VMs in minutes to provide highly available applications. 
+- Azure Batch enables large-scale job scheduling and compute management with the ability to scale to tens, hundreds, or thousands of VMs.
+- Azure Container Instances (ACI) offers the fastest and simplest way to run a container in Azure. You don't have to manage any virtual machines or configure any additional services. It is a PaaS offering that allows you to upload your containers and execute them directly with automatic elastic scale.
+- A network security group, or NSG, allows or denies inbound network traffic to your Azure resources. Think of a network security group as a cloud-level firewall for your network.
+- You can configure a network security group to accept traffic only from known sources, such as IP addresses that you trust.
+- A region is one or more Azure data centers within a specific geographic location.
+- Application Gateway is a load balancer designed for web applications.
+- A content delivery network (CDN) is a distributed network of servers that can efficiently deliver web content to users. It is a way to get content to users in their local region to minimize latency.
+- Traffic Manager uses the DNS server that's closest to the user to direct user traffic to a globally distributed endpoint.
+- Azure Event Hubs allow you to receive and process millions of events of real-time data each second via dynamic data pipelines.
+- Azure Security Center is a monitoring service that provides threat protection across all of your services both in Azure, and on-premises. Is available in two tiers: Free and Standard (15 usd per node per month)
+- Azure provides services to manage both authentication and authorization through Azure Active Directory (Azure AD).
+- An identity is just a thing that can be authenticated. A principal is an identity acting with certain roles or claims. A service principal is an identity that is used by a service or application. 
+- a specific organization's Active Directory instance is known as an "Active Directory Tenant"
+- Azure AD Privileged Identity Management (PIM) is an additional, paid-for offering that provides oversight of role assignments, self-service, and just-in-time role activation and Azure AD and Azure resource access reviews.
+- Azure Storage Service Encryption - the Azure storage platform automatically encrypts your data before persisting it to Azure Managed Disks, Azure Blob storage, Azure Files, or Azure Queue storage, and decrypts the data before retrieval.
+- Azure Disk Encryption is a capability that helps you encrypt your Windows and Linux IaaS virtual machine disks.
+- Transparent data encryption (TDE) helps protect Azure SQL Database and Azure Data Warehouse against the threat of malicious activity. 
+- Azure Key Vault is a centralized cloud service for storing your application secrets.
+- Key Vault lets you provision, manage, and deploy your public and private Secure Sockets Layer/ Transport Layer Security (SSL/ TLS) certificates for your Azure, and internally connected, resources more easily.
+- Service certificates are used for cloud services. Management certificates are used for authenticating with the management API.
+- Azure Application Gateway is a load balancer that includes a Web Application Firewall (WAF) that provides protection from common, known vulnerabilities in websites. It is designed to protect HTTP traffic.
+- Network virtual appliances (NVAs) are ideal options for non-HTTP services or advanced configurations, and are similar to hardware firewall appliances.
+- ExpressRoute lets you extend your on-premises networks into the Microsoft cloud over a private connection facilitated by a connectivity provider.
+- Microsoft Azure Information Protection (sometimes referred to as AIP) is a cloud-based solution that helps organizations classify and optionally protect documents and emails by applying labels.
+- Azure Advanced Threat Protection (Azure ATP) is a cloud-based security solution that identifies, detects, and helps you investigate advanced threats, compromised identities, and malicious insider actions directed at your organization.
+- Unlike RBAC, Azure Policy is a default-allow-and-explicit-deny system.
+- A policy definition expresses what to evaluate and what action to take. 
+- A policy assignment is a policy definition that has been assigned to take place within a specific scope.
+- policy assignments are inherited by all child resources. This inheritance means that if a policy is applied to a resource group, it is applied to all the resources within that resource group. However, you can exclude a subscope from the policy assignment. For example, we could enforce a policy for an entire subscription and then exclude a few select resource groups.
+- Requests to create or update a resource through Azure Resource Manager are evaluated by Azure Policy first.
+- Each policy definition in Azure Policy has a single effect. Azure Policy can allow a resource to be created even if it doesn't pass validation.
+- An initiative definition is a set or group of policy definitions to help track your compliance state for a larger goal.
+- Like a policy assignment, an initiative assignment is an initiative definition assigned to a specific scope. Initiative assignments reduce the need to make several initiative definitions for each scope.
+- Initiative definitions simplify the process of managing and assigning policy definitions by grouping a set of policies into a single item.
+- Access management occurs at the Azure subscription level.
+- Azure Management Groups are containers for managing access, policies, and compliance across multiple Azure subscriptions.
+- The resources and subscriptions you assign to a management group automatically inherit the conditions that you apply to that management group.
+- The Azure Blueprints service is designed to help with environment setup. This setup often consists of a set of resource groups, policies, role assignments, and Resource Manager template deployments.
+- Resource Manager template is a document that doesn't exist natively in Azure. Resource Manager templates are stored either locally or in source control.
+- With Blueprints, the relationship between the blueprint definition (what should be deployed) and the blueprint assignment (what was deployed) is preserved. This connection supports improved tracking and auditing of deployments. Blueprints can also upgrade several subscriptions at once that are governed by the same blueprint.
+- Each blueprint can consist of zero or more Resource Manager template artifacts.
+- Trust Center is a website resource containing information and details about how Microsoft implements and supports security, privacy, compliance, and transparency in all Microsoft cloud products and services. 
+- The Service Trust Portal (STP) hosts the Compliance Manager service, and is the Microsoft public site for publishing audit reports and other compliance-related information relevant to Microsoft's cloud services.
+- Compliance Manager is a dashboard that provides a summary of your data protection and compliance stature and recommendations for improvement.
+- Azure Service Health identifies any issues with Azure services that might affect your application. Azure Service Health also helps you to plan for scheduled maintenance.
+- Azure Service Health is a suite of experiences that provide personalized guidance and support when issues with Azure services affect you. Azure Service Health can also help you prepare for planned maintenance and changes that could affect the availability of your resources.
+
+
+
+
+
