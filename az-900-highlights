@@ -50,8 +50,11 @@
 - Compliance Manager is a dashboard that provides a summary of your data protection and compliance stature and recommendations for improvement.
 - Azure Service Health identifies any issues with Azure services that might affect your application. Azure Service Health also helps you to plan for scheduled maintenance.
 - Azure Service Health is a suite of experiences that provide personalized guidance and support when issues with Azure services affect you. Azure Service Health can also help you prepare for planned maintenance and changes that could affect the availability of your resources.
-
-
-
-
+- In contrast to Azure Status, which informs you about service problems that affect a broad set of Azure customers, Resource Health gives you a personalized dashboard of your resources' health.
+- Resource Health shows you times, in the past, when your resources were unavailable because of Azure service problems. It's then easier for you to understand if an SLA was violated.
+- A resource group is a logical container for resources deployed on Azure. These resources are anything you create in an Azure subscription like virtual machines, Application Gateways, and CosmosDB instances. All resources must be in a resource group and a resource can only be a member of a single resource group.
+- If you delete a resource group, all resources contained within are also deleted. Resource groups are also a scope for applying role-based access control (RBAC) permissions.
+- Azure Policy is a service you can use to create, assign, and manage policies. These policies apply and enforce rules that your resources need to follow.
+- Role-Based Access Control (RBAC) provides fine-grained access management for Azure resources, enabling you to grant users the specific rights they need to perform their jobs. RBAC is considered a core service and is included with all subscription levels at no cost.
+- Resource locks are a setting that can be applied to any resource to block modification or deletion. Resource locks can set to either Delete or Read-only. They can be applied to subscriptions, resource groups, and to individual resources, and are inherited when applied at higher levels.
 
