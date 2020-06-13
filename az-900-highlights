@@ -63,8 +63,9 @@
 - A Zone is a geographical grouping of Azure Regions for billing purposes. In most zones, the first outbound 5 gigabytes (GB) per month are free. After that amount, you are billed a fixed price per GB.
 - Billing zones aren't the same as an Availability Zone. In Azure, the term zone is for billing purposes only, and the full term Availability Zone refers to the failure protection that Azure provides for datacenters.
 - Azure Advisor is a free service built into Azure that provides recommendations on high availability, security, performance, operational excellence, and cost.
-- Azure Cost Management is another free, built-in Azure tool that can be used to gain greater insights into where your cloud money is going. You can see historical breakdowns of what services you are spending your money on and how it is tracking against budgets that you have set. You can set budgets, schedule reports, and analyze your cost areas.
+- Azure Cost Management gives you reporting and billing information, so you can gain insights into where you're spending your money.
 - If you are starting to migrate to the cloud, a useful tool you can use to predict your cost savings is the Total Cost of Ownership (TCO) calculator.
 - By default, Azure subscriptions that have associated monthly credits (which includes trial accounts) have a spending limit to ensure you aren't charged once you have used up your credits. Azure spending limits are not the same as subscription, service, or resource group limits and quotas. This feature is useful for development teams exploring new solution architectures. The spending limit feature is specific to subscriptions that include a monthly Azure credit allotment. It is not available on pay-only subscriptions.
 - If you have virtual machine workloads that are static and predictable, using reserved instances is a fantastic way to potentially save up to 70 to 80 percent off the pay-as-you-go cost.
-- The Azure Hybrid Benefit gives customers the right to use Windows Server purchased licenses for virtual machines on Azure.
+- Azure Reservations offer discounted prices if you make upfront commitments on compute capacity
+- The Azure Hybrid Benefit gives customers the right to use Windows Server or SQL Server purchased licenses for virtual machines on Azure.
